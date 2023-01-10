@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0.1px;
+
+}
+div{
+    box-sizing: border-box;
+}
+
+.continer{
+    width: 375px;
+    height: 1500px;
+    background-color: rgb(165, 165, 192);
+    border-radius: 10px;
+}
+
+.clock{
+    width: 375px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    
+    
+}
+
+.clock h4{
+    margin: 0;
+}
+
+.bener{
+    height: 60px;
+}
+
+
+.mainbar{
+    width: 375px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+   
+    
+}
+
+.mainbar h2{
+    margin: 0;
+}
+
+.mainbtn{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+.mainbar div{
+    width: 55px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
+
+
+.mainimg{
+    position: relative;
+    display: inline-block;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.toll{
+   position: absolute;
+   top: 450px;
+   
+    
+}
+
+
+
+.toll h6{
+    
+    float: left;
+    margin: 0;
+    color: white;    
+    margin-left: 10px;
+    padding: 3px 5px;
+    
+}
+
+
+.toll h2{
+    margin: 0;
+    color: white;    
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 1px 5px;
+}
+.toll h4{
+    margin: 0;
+    color: white;    
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 1px 5px;
+}
+
+.manu{
+    margin-top: 610px;
+    
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    
+}
+
+.manu table{
+    border-collapse: collapse;
+    
+}
+
+.manu td{
+    padding: 5px;
+    border: 0.5px solid rgb(161, 151, 151);
+}
+
+
+.saleimg{
+    position: relative;
+    display: inline-block;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.saleimgtoll2{
+    position: absolute;
+    top: 90px;
+    left: 25px;
+}
+
+@media screen and (min-width: 768px){
+    .continer{
+        width: 99vw;
+    }
+
+    .clock{
+        display: none;
+    }
+
+    .bener{
+        width: 100%;
+        height: 25vh;
+    }
+    
+}
+
+
+
+
