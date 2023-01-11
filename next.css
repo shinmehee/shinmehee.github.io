@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Noto_Sans_KR';
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+}
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+
+
+
+
+body {
+    font-family: 'Noto_Sans_KR', 'Roboto', sans-serif;
+
+
+
+
+}
+
+a {
+    text-decoration-line: none;
+    color: inherit;
+}
+
+
+
+
+.container {
+    width: 99vw;
+}
+
+.nav {
+    width: 99vw;
+    text-align: center;
+    
+
+}
+
+.main-nav {
+    width: 99vw;
+
+}
+
+
+.main-nav {
+    width: 99vw;
+
+
+
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    margin-left: 70vw;
+}
+
+
+.list li {
+    margin-top: 4px;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.main-nav li {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.list-main {
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    margin-bottom: 14px;
+}
+
+hr {
+    margin: 4px 0px;
+}
+
+.contents {
+    display: flex;
+    width: 100vw;
+    max-width: 952px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.contents-img {
+    margin-top: 72px;
+    margin-right: 50px;
+}
+
+h4 {
+    font-size: 3em;
+    font-weight: bold;
+
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: bold;
+    margin-top: 34px;
+    margin-bottom: 10px;
+
+}
+
+button {
+    border: none;
+    margin-top: 50px;
+}
+
+.btn-1 {
+    font-weight: bold;
+    font-size: 2em;
+    width: 138px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: #111111;
+    color: #f1f1f1;
+}
+
+.btn-2 {
+    font-size: 2em;
+    font-weight: 700;
+    width: 196px;
+    height: 50px;
+    background-color: #e1e1e1;
+    border-radius: 3px;
+}
+
+.btn-3 {
+    font-size: 2em;
+    font-weight: 700;
+    width: 140px;
+    height: 50px;
+    background-color: #e1e1e1;
+    border-radius: 3px;
+}
